@@ -1,0 +1,117 @@
+body {
+  background-image: url("Dark.png");
+}
+img{
+	max-width:50%;
+	height:50;
+}
+
+span{
+	color: red;
+	font-weight: bold;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: impact;
+  font-size: 50px;
+}
+
+h2{
+	color:beige;
+	font-family: impack;
+	text-align: center;
+	font-size: 30px;
+}
+
+h3{
+	color:white;
+	text-align: center;
+}
+
+h4{
+	color:royalblue;
+	font-family:cursive;
+	text-align: center;
+
+}
+
+p{
+	color: skyblue;
+	font-family:cursive;
+	text-align:center;
+	font-size: 150%;
+}
+
+a:link{color:pink;}
+a:visited{color:green;}
+a:hover{color:blue;}
+a:active{color:yellow;}
+
+a{
+	display:block;
+	text-align: center;
+}
+
+.center {
+		display:block;
+		margin-left: auto;
+		margin-right:auto;
+		width: 30%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: none;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+ul.a{
+	color:beige;
+	list-style-position: inside;
+	list-style-type: circle;
+	width: 10%;
+	margin:auto;
+}
+
+ol.a{
+	color: beige;
+	list-style-position: outside;
+	list-style-type: upper-roman;
+	width: 10%;
+	margin:auto;
+}
+
+ul.b{
+	color:beige;
+	list-style-position: inside;
+	width: 50%;
+	margin:auto;
+}
+
+ol.b{
+	color: beige;
+	list-style-position: outside;
+	width: 50%;
+	margin:auto;
+}
+
+.myDiv {
+  border: 5px outset red;
+  background-color: beige;    
+  text-align: center;
+}
